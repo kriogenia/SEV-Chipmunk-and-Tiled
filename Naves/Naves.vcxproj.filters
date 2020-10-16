@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Layers">
+      <UniqueIdentifier>{45f66d5e-c29b-49c6-85af-84c5300f5a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Layers">
+      <UniqueIdentifier>{72dd6edd-13e1-4b35-bf57-ffd720525077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Actors">
+      <UniqueIdentifier>{f8d623c8-5311-4e82-94b9-aa8e25e9d80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Actors">
+      <UniqueIdentifier>{4b64baab-39e3-4b49-aac2-79e19936cb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chipmunk">
+      <UniqueIdentifier>{56f4a226-a519-47ce-bbd0-dff945500761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TinyXml2">
+      <UniqueIdentifier>{e1fec1ad-be85-427d-8261-81b65d5a342b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Archivos de origen\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de origen\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Archivos de origen\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Archivos de origen\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Archivos de origen\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Space.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>Archivos de origen\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>TinyXml2</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSimpleMotor.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSlideJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpace.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpaceComponent.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpaceDebug.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpaceHash.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpaceQuery.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpaceStep.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSpatialIndex.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpSweep1D.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\chipmunk.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpArbiter.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpArray.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpBBTree.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpBody.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpCollision.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpConstraint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpDampedRotarySpring.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpDampedSpring.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpGearJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpGrooveJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpHashSet.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpHastySpace.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpMarch.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpPinJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpPivotJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpPolyline.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpPolyShape.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpRatchetJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpRobust.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpRotaryLimitJoint.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+    <ClCompile Include="chipmunk\cpShape.c">
+      <Filter>Chipmunk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Archivos de encabezado\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Archivos de encabezado\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Archivos de encabezado\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Archivos de encabezado\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Space.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>Archivos de encabezado\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>TinyXml2</Filter>
+    </ClInclude>
+    <ClInclude Include="chipmunk\prime.h">
+      <Filter>Chipmunk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chipmunk\CMakeLists.txt">
+      <Filter>Chipmunk</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
